@@ -16,20 +16,31 @@ const temperature=null
 
 let userEmail;
 
-console.log(userEmail)
+// console.log(userEmail)
 
 const id =Symbol('asdf')
 const anotherId= Symbol('asdf')
+
+console.log(typeof id) // return datatype symbol
 
 const scientificCalculation=123456789345678n //BigInt
 
 //Non-Primitive (reference types)
 // Arrays, Objects, Functions
 
+const documents=['cv','license','marksheet'] //array
 
+const userDetails={  //object
+    userName:'John Doe',
+    userAge:22
+}
 
+const myFunction = function(){
+    console.log('imdevsunny')
+}
 
+//typeof method is used to print type of data
 
+// console.log(typeof null)
 
-
-
+// console.log(typeof myFunction) //it will return object function 
